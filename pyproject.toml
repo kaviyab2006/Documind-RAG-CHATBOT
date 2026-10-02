@@ -1,0 +1,16 @@
+[project]
+name = "rag-document-chatbot"
+version = "0.1.0"
+description = "A beginner-friendly Retrieval-Augmented Generation document chatbot"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "streamlit",
+    "pypdf",
+    "sentence-transformers",
+    "faiss-cpu",
+    "numpy",
+    "google-generativeai",
+    "python-dotenv"
+]
